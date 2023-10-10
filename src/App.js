@@ -1,9 +1,8 @@
-import React from "react";
+import MovieCard from "./MovieCard";
 
-export default class App extends React.Component {
-  render() {
-    return (<>
-      <h1>Hello BhupinderJ</h1>
-    </>)
-  }
+export default function App() {
+  return (<>
+    <h1>Movie App</h1>
+    <MovieCard />
+  </>);
 }
